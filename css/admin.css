@@ -1,0 +1,91 @@
+/* 
+    Tác giả: Vijay Thapa 
+    Chủ đề: Quản trị Website Đặt Món Ăn
+    Phiên bản: 1.0;
+*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Ban sua loi */
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+/* css for menu */
+/* Duong vien duoi menu (ngan cat) */
+.menu {
+    border-bottom: 1px solid rgb(226, 221, 221);
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4757;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+
+/* CSS for main-content */
+main-content{
+    background-color: #f1f2f6;
+    padding: 3%;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* css for category */
+.tbl-full {
+    width: 100%;
+}
+
+
+/* .tbl-full tr th {
+    border-bottom: 1px solid black;
+    padding: 30%;
+    text-align: left;
+} */
+/* 
+.tbl-full tr td {
+    padding: 1%;
+} */
+
+/* css for footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
