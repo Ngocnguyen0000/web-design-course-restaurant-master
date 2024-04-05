@@ -1,3 +1,5 @@
+<?php include('../config/constants.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +8,7 @@
     <title>Homepage of Food Ordering Website</title>
 
     <link rel="stylesheet" href="../css/admin.css">
+
 
 </head>
 <body>
