@@ -15,7 +15,7 @@
         <?php
             // Kiểm tra xem có thông báo từ session không
             if (isset($_SESSION['add'])) {
-                echo $_SESSION['add']; // Hiển thị thông báo
+                echo "Xin chào".$_SESSION['add']; // Hiển thị thông báo
                 unset($_SESSION['add']); // Xóa thông báo từ session
             }
         ?>

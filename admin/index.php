@@ -1,6 +1,15 @@
 <?php include("partials/menu.php"); ?>
 
 
+<?php
+    session_start();
+
+    if(isset($_SESSION['mySession'])){
+    header('location: login.php');
+}
+?>
+
+
     <!-- Main Content Section Starts -->
     <div class="main-content">
         <div class="wrapper">
@@ -30,8 +39,17 @@
                 Categories
             </div>
         </div>
+
+
+        
     </div>
+
+
+
+    
     <div class="clearfix"></div>
+
+    
 
 
     <!-- Main Content Section Ends -->

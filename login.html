@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .tbl-30 {
+        width: 30%;
+        border-collapse: collapse;
+        margin: 25px auto; /* Center the table */
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .tbl-30 th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .btn-secondary {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn-secondary:hover {
+        background-color: #45a049;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    </style>
+
+    <form action="login.php" method="POST">
+        <table class='tbl-30'>
+            <tr>
+                <td>Full Name: </td>
+                <td>
+                    <input type="text" name="full_name" placeholder="Nhập họ và tên của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Username: </td>
+                <td>
+                    <input type="text" name="username" placeholder="Nhập tên người dùng">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password: </td>
+                <td>
+                    <input type="password" name="password" placeholder="Nhập mật khẩu của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Login" name="submit" class="btn-secondary"> 
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,6 +1,9 @@
 <?php
+    //start session
+    session_start();
 
     // Tạo các hằng số để lưu trữ các giá trị không lặp lại
+    define("SITEURL", "localhost");
     define("LOCALHOST", "localhost");
     define('DB_USERNAME', '2N');
     define('DB_PASSWORD', '2N@123');
